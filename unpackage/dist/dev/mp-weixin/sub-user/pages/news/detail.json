@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "详情",
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "mp-html": "/uni_modules/mp-html/components/mp-html/mp-html"
+  }
+}

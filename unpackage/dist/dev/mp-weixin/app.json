@@ -1,0 +1,88 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/index",
+    "pages/mine/poster",
+    "pages/mine/protocol",
+    "pages/mine/service",
+    "pages/web/index",
+    "pages/mine/notification",
+    "pages/mine/notificationDetail"
+  ],
+  "subPackages": [
+    {
+      "root": "sub-user",
+      "pages": [
+        "pages/news/index",
+        "pages/news/detail",
+        "pages/appeal/index",
+        "pages/appeal/list",
+        "pages/appeal/detail",
+        "pages/user/balance",
+        "pages/user/withdraw",
+        "pages/user/cashWithDraw",
+        "pages/setting/index",
+        "pages/worker/index",
+        "pages/worker/detail",
+        "pages/worker/list",
+        "pages/worker/shareList",
+        "pages/workOrder/detail",
+        "pages/workOrder/dispatch",
+        "pages/workOrder/drop",
+        "pages/workOrder/cancel",
+        "pages/workOrder/complete",
+        "pages/workOrder/evaluate",
+        "pages/workOrder/list",
+        "pages/workOrder/search",
+        "pages/workOrder/dropList",
+        "pages/sign/sign",
+        "pages/workOrder/create",
+        "pages/worker/setTag",
+        "pages/worker/identify",
+        "pages/worker/province",
+        "pages/worker/city",
+        "pages/worker/area",
+        "pages/about/index",
+        "pages/freeback/freeBackList",
+        "pages/freeback/freeBackEdit",
+        "pages/freeback/freeBackDetail"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "绿豆锁大师",
+    "navigationBarBackgroundColor": "#f5f5f5",
+    "backgroundColor": "#f5f5f5"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#82C91E",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/tabbar/user.png",
+        "selectedIconPath": "static/tabbar/user-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "__usePrivacyCheck__": true,
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取经纬度用于完单时位置显示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {}
+}

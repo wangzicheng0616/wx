@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "身份证上传",
+  "usingComponents": {
+    "u-top-tips": "/uview-ui/components/u-top-tips/u-top-tips"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "电子签名",
+  "usingComponents": {
+    "picker-color": "/sub-user/pages/sign/pickerColor"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "工单搜素",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "use-empty": "/components/use-empty/use-empty",
+    "use-loadmore": "/components/use-loadmore/use-loadmore",
+    "use-totop": "/components/use-totop/use-totop"
+  }
+}

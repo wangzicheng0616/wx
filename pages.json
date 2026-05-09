@@ -1,0 +1,398 @@
+{
+    "easycom" : {
+        "autoscan" : true,
+        "custom" : {
+            "^u-(.*)" : "@/uview-ui/components/u-$1/u-$1.vue",
+            "usekf-(.*)" : "@/sub-kf/components/usekf-$1/usekf-$1.vue"
+        }
+    },
+    "pages" : [
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : "绿豆锁大师",
+                "enablePullDownRefresh" : true,
+                "backgroundTextStyle" : "dark",
+                "navigationBarShadow" : {
+                    "colorType" : "grey"
+                },
+                "h5" : {
+                    "pullToRefresh" : {
+                        "color" : "#82C91E"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/mine/index",
+            "style" : {
+                "navigationBarTitleText" : "我的",
+                "navigationBarShadow" : {
+                    "colorType" : "grey"
+                },
+                "navigationStyle" : "custom",
+                "h5" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/mine/poster",
+            "style" : {
+                "navigationBarTitleText" : "我的海报",
+                "navigationBarShadow" : {
+                    "colorType" : "grey"
+                },
+                "h5" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/mine/protocol",
+            "style" : {
+                "navigationBarTitleText" : "绿豆锁大师",
+                "navigationBarShadow" : {
+                    "colorType" : "grey"
+                },
+                "h5" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/mine/service",
+            "style" : {
+                "navigationBarTitleText" : "我的客服",
+                "navigationBarShadow" : {
+                    "colorType" : "grey"
+                },
+                "h5" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/web/index",
+            "style" : {
+                "navigationBarTitleText" : "绿豆锁大师",
+                "navigationBarShadow" : {
+                    "colorType" : "grey"
+                },
+                "h5" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/mine/notification",
+            "style" : {
+                "navigationBarTitleText" : "消息列表",
+                "navigationBarShadow" : {
+                    "colorType" : "grey"
+                },
+                "enablePullDownRefresh" : true,
+                "backgroundTextStyle" : "dark",
+                "h5" : {
+                    "titleNView" : false,
+                    "pullToRefresh" : {
+                        "color" : "#82C91E"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/mine/notificationDetail",
+            "style" : {
+                "navigationBarTitleText" : "消息详情",
+                "navigationBarShadow" : {
+                    "colorType" : "grey"
+                },
+                "backgroundTextStyle" : "dark",
+                "h5" : {
+                    "titleNView" : false
+                }
+            }
+        }
+    ],
+    "subPackages" : [
+        {
+            "root" : "sub-user",
+            "pages" : [
+                {
+                    "path" : "pages/news/index",
+                    "style" : {
+                        "navigationBarTitleText" : "常见问题",
+                        "enablePullDownRefresh" : true,
+                        "backgroundTextStyle" : "dark"
+                    }
+                },
+                {
+                    "path" : "pages/news/detail",
+                    "style" : {
+                        "navigationBarTitleText" : "详情",
+                        "navigationBarShadow" : {
+                            "colorType" : "grey"
+                        },
+                        "backgroundTextStyle" : "dark",
+                        "h5" : {
+                            "titleNView" : false
+                        }
+                    }
+                },
+                {
+                    "path" : "pages/appeal/index",
+                    "style" : {
+                        "navigationBarTitleText" : "申诉"
+                    }
+                },
+                {
+                    "path" : "pages/appeal/list",
+                    "style" : {
+                        "navigationBarTitleText" : "申诉列表",
+                        "enablePullDownRefresh" : true,
+                        "backgroundTextStyle" : "dark"
+                    }
+                },
+                {
+                    "path" : "pages/appeal/detail",
+                    "style" : {
+                        "navigationBarTitleText" : "申诉详情",
+                        "backgroundTextStyle" : "dark"
+                    }
+                },
+                {
+                    "path" : "pages/user/balance",
+                    "style" : {
+                        "navigationBarTitleText" : "我的收益",
+                        "enablePullDownRefresh" : true,
+                        "backgroundTextStyle" : "dark"
+                    }
+                },
+                {
+                    "path" : "pages/user/withdraw",
+                    "style" : {
+                        "navigationBarTitleText" : "我要提现",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "pages/user/cashWithDraw",
+                    "style" : {
+                        "navigationBarTitleText" : "申请提现"
+                    }
+                },
+                {
+                    "path" : "pages/setting/index",
+                    "style" : {
+                        "navigationBarTitleText" : "系统设置"
+                    }
+                },
+                {
+                    "path" : "pages/worker/index",
+                    "style" : {
+                        "navigationBarTitleText" : "认证师傅"
+                    }
+                },
+                {
+                    "path" : "pages/worker/detail",
+                    "style" : {
+                        "navigationBarTitleText" : "师傅详情"
+                    }
+                },
+                {
+                    "path" : "pages/worker/list",
+                    "style" : {
+                        "enablePullDownRefresh" : true,
+                        "backgroundTextStyle" : "dark"
+                    }
+                },
+                {
+                    "path" : "pages/worker/shareList",
+                    "style" : {
+                        "navigationBarTitleText" : "邀请列表",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "pages/workOrder/detail",
+                    "style" : {
+                        "navigationBarTitleText" : "工单详情"
+                    }
+                },
+                {
+                    "path" : "pages/workOrder/dispatch",
+                    "style" : {
+                        "navigationBarTitleText" : ""
+                    }
+                },
+                {
+                    "path" : "pages/workOrder/drop",
+                    "style" : {
+                        "navigationBarTitleText" : "弃单"
+                    }
+                },
+                {
+                    "path" : "pages/workOrder/cancel",
+                    "style" : {
+                        "navigationBarTitleText" : "取消工单"
+                    }
+                },
+                {
+                    "path" : "pages/workOrder/complete",
+                    "style" : {
+                        "navigationBarTitleText" : "完单"
+                    }
+                },
+                {
+                    "path" : "pages/workOrder/evaluate",
+                    "style" : {
+                        "navigationBarTitleText" : "评价"
+                    }
+                },
+                {
+                    "path" : "pages/workOrder/list",
+                    "style" : {
+                        "navigationBarTitleText" : "工单列表",
+                        "enablePullDownRefresh" : true,
+                        "backgroundTextStyle" : "dark"
+                    }
+                },
+                {
+                    "path" : "pages/workOrder/search",
+                    "style" : {
+                        "navigationBarTitleText" : "工单搜素",
+                        "enablePullDownRefresh" : true,
+                        "backgroundTextStyle" : "dark"
+                    }
+                },
+                {
+                    "path" : "pages/workOrder/dropList",
+                    "style" : {
+                        "navigationBarTitleText" : "弃单列表",
+                        "enablePullDownRefresh" : true,
+                        "backgroundTextStyle" : "dark"
+                    }
+                },
+                {
+                    "path" : "pages/sign/sign",
+                    "style" : {
+                        "navigationBarTitleText" : "电子签名"
+                    }
+                },
+                {
+                    "path" : "pages/workOrder/create",
+                    "style" : {
+                        "navigationBarTitleText" : "发布工单"
+                    }
+                },
+                {
+                    "path" : "pages/worker/setTag",
+                    "style" : {
+                        "navigationBarTitleText" : "设置技能"
+                    }
+                },
+                {
+                    "path" : "pages/worker/identify",
+                    "style" : {
+                        "navigationBarTitleText" : "身份证上传"
+                    }
+                },
+                {
+                    "path" : "pages/worker/province",
+                    "style" : {
+                        "navigationBarTitleText" : "设置服务区域"
+                    }
+                },
+                {
+                    "path" : "pages/worker/city",
+                    "style" : {
+                        "navigationBarTitleText" : "设置服务区域"
+                    }
+                },
+                {
+                    "path" : "pages/worker/area",
+                    "style" : {
+                        "navigationBarTitleText" : "设置服务区域"
+                    }
+                },
+                {
+                    "path" : "pages/about/index",
+                    "style" : {
+                        "navigationBarTitleText" : "关于我们",
+                        "navigationBarShadow" : {
+                            "colorType" : "grey"
+                        }
+                    }
+                },
+                {
+                    "path" : "pages/freeback/freeBackList",
+                    "style" : {
+                        "navigationBarTitleText" : "意见反馈",
+                        "navigationBarShadow" : {
+                            "colorType" : "grey"
+                        }
+                    }
+                },
+                {
+                    "path" : "pages/freeback/freeBackEdit",
+                    "style" : {
+                        "navigationBarTitleText" : "意见反馈",
+                        "navigationBarShadow" : {
+                            "colorType" : "grey"
+                        }
+                    }
+                },
+                {
+                    "path" : "pages/freeback/freeBackDetail",
+                    "style" : {
+                        "navigationBarTitleText" : "意见反馈",
+                        "navigationBarShadow" : {
+                            "colorType" : "grey"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "tabBar" : {
+        "color" : "#C0C4CC",
+        "selectedColor" : "#82C91E",
+        "borderStyle" : "black",
+        "backgroundColor" : "#ffffff",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "iconPath" : "static/tabbar/home.png",
+                "selectedIconPath" : "static/tabbar/home-active.png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/mine/index",
+                "iconPath" : "static/tabbar/user.png",
+                "selectedIconPath" : "static/tabbar/user-active.png",
+                "text" : "我的"
+            }
+        ]
+    },
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "绿豆锁大师",
+        "navigationBarBackgroundColor" : "#f5f5f5",
+        "backgroundColor" : "#f5f5f5",
+        "app-plus" : {
+            "background" : "#f5f5f5"
+        }
+    },
+    "condition" : {
+        //模式配置，仅开发期间生效
+        "current" : 0, //当前激活的模式(list 的索引项)
+        "list" : [
+            {
+                "name" : "", //模式名称
+                "path" : "", //启动页面，必选
+                "query" : "" //启动参数，在页面的onLoad函数里面得到
+            }
+        ]
+    }
+}

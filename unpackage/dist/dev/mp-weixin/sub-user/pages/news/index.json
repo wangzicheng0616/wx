@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "常见问题",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "use-navbar": "/components/use-navbar/use-navbar",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

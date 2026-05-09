@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "完单",
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-radio-group": "/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uview-ui/components/u-radio/u-radio",
+    "use-rate": "/components/use-rate/use-rate",
+    "use-action-sheet": "/components/use-action-sheet/use-action-sheet",
+    "order-info": "/sub-user/components/order-info"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "弃单",
+  "usingComponents": {
+    "order-info": "/sub-user/components/order-info"
+  }
+}

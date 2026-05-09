@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "绿豆锁大师",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "use-loading": "/components/use-loading/use-loading",
+    "use-header": "/components/use-header/use-header",
+    "use-empty": "/components/use-empty/use-empty",
+    "use-loadmore": "/components/use-loadmore/use-loadmore",
+    "uv-rate": "/uni_modules/uv-rate/components/uv-rate/uv-rate",
+    "use-popup": "/components/use-popup/use-popup",
+    "use-totop": "/components/use-totop/use-totop",
+    "q-s-popup": "/components/QS-popup/QS-popup"
+  }
+}

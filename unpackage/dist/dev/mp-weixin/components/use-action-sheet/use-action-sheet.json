@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "use-popup": "/components/use-popup/use-popup"
+  },
+  "component": true
+}

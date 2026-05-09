@@ -1,0 +1,5 @@
+
+page {
+	background: $page-color-base;
+}
+

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "use-action-sheet": "/components/use-action-sheet/use-action-sheet",
+    "use-list-title": "/components/use-list-title/use-list-title",
+    "uni-transition": "/uni_modules/uni-transition/components/uni-transition/uni-transition"
+  }
+}

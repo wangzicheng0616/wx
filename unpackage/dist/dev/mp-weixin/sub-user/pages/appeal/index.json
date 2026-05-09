@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "申诉",
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "order-info": "/sub-user/components/order-info"
+  }
+}

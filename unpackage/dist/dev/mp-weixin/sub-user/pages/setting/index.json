@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "系统设置",
+  "usingComponents": {
+    "use-navbar": "/components/use-navbar/use-navbar",
+    "use-list-title": "/components/use-list-title/use-list-title"
+  }
+}

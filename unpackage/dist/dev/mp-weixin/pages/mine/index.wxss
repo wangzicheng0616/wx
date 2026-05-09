@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/*文字颜色*/
+.bg0 {
+  background-image: linear-gradient(to top, white 0%, #82C91E 100%);
+}
+.bg1 {
+  background-image: linear-gradient(to top, white 0%, #dfe9f3 100%);
+}
+.bg2 {
+  background-image: linear-gradient(to top, white 0%, #434343 100%);
+}
+.bg3 {
+  background-color: #f5f5f5;
+}
+.member-area image {
+  width: 130rpx;
+  height: 130rpx;
+  border: 5rpx solid #fff;
+}
+.vip-card-area {
+  padding-top: 12rpx;
+  padding-bottom: 12rpx;
+  font-size: 24rpx;
+  color: #c6b181;
+  background-color: #000000;
+  /* 不支持线性的时候显示 */
+  background-image: linear-gradient(to right, #3a3a3a, #000000);
+}
+.vip-card-area .iconfont {
+  font-size: 66rpx;
+}
+.stats-area .item {
+  padding: 30rpx 0;
+}
+.stats-area .num {
+  font-size: 32rpx;
+  color: #303133;
+  margin-bottom: 6rpx;
+}
+.order-area .iconfont {
+  position: relative;
+  font-size: 40rpx;
+}
+.order-area .iconfont .badge {
+  right: initial;
+}
+.stats-area .item,
+.order-area .item {
+  position: relative;
+  font-size: 24rpx;
+  color: #75787d;
+  flex: 1;
+}
+.browsing-area image {
+  width: 160rpx;
+  height: 160rpx;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+  display: none;
+}
+.log-out-btn {
+  color: #75787d;
+}
+.info {
+  color: #e9a60c;
+  background: #f4ead4;
+}
+.alert-box {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+}
+.alert-item {
+  width: 600rpx;
+  min-height: 435rpx;
+  padding: 30rpx 0rpx;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 20rpx;
+}
+.alert-title {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 420rpx;
+  font-weight: bold;
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+  color: #bababa;
+}
+.alert-content {
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+  margin: 0 auto 10rpx;
+  width: 440rpx;
+}
+.btn-box {
+  width: 440rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30rpx auto 0;
+  background-color: #28c445;
+  color: #fff;
+  height: 80rpx;
+  border-radius: 40rpx;
+}
+.btn-sure {
+  width: 160rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.text-line {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+.img {
+  width: 400rpx;
+  height: 400rpx;
+}
+.link {
+  color: #82C91E;
+  text-decoration: underline;
+}

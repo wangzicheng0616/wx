@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "意见反馈",
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "empty-data": "/components/empty-data"
+  }
+}

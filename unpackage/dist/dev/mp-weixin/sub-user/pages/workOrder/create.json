@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "发布工单",
+  "usingComponents": {
+    "use-date-time-picker": "/components/use-date-time-picker/use-date-time-picker",
+    "uni-data-picker": "/uni_modules/uni-data-picker/components/uni-data-picker/uni-data-picker",
+    "use-popup": "/components/use-popup/use-popup",
+    "use-copyright": "/components/use-copyright/use-copyright",
+    "use-loading": "/components/use-loading/use-loading"
+  }
+}

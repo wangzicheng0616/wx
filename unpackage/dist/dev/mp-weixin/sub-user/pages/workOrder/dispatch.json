@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "use-date-time-picker": "/components/use-date-time-picker/use-date-time-picker",
+    "order-info": "/sub-user/components/order-info"
+  }
+}
